@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STM32H743 Control panel</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" async defer></script>
+  </head>
+  <body>
+    <h1>STM32H743 Control panel</h1>
+
+    <form id="controlPanelForm" method="post">
+      <input
+        type="button"
+        id="led2Button"
+        name="led1Button"
+        value="LED2"
+        onclick="toggle_led2()"
+      />
+      <label id="led2Label">ON</label>
+    </form>
+  </body>
+</html>
